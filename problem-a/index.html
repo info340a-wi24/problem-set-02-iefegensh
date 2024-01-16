@@ -39,16 +39,21 @@
         <header>
           <h2 class="text-small">Leave a comment</h2>
         </header>
+
         <div>
           <label for="email_input">Email:</label>
-          Email: <input id="email_input"  placeholder="email@domain.com" type="email" name="email">
+          Email: <input id="email_input"  placeholder="email@domain.com" type="email" name="email"> 
+        </div>
+
+        <div>
+          <label for="password_input">Password:</label>
           Password: <input id="password_input" type="password" name="password">
         </div>
         <div>
-          Comment:
+          <label for="comment_field">Comment:</label>
           <textarea class="form-control" id="comment_field"></textarea>
         </div>
-        <button type="submit"><i class="fas fa-pencil-alt"></i></button>
+        <button type="submit"><i class="fas fa-pencil-alt" aria-label="Submit"></i></button>
       </form>
     </section>
   </main>
@@ -57,10 +62,10 @@
   <!-- Author Info -->
   <footer>
     <p>This journal was created by me using my own two hands.</p>
-    <p>
-      <address>Contact me at me@here.com, or at (555) 123-4567.</address>
-    </p>
-    <p>copyright 2019 The Author.</p>
+    <address>
+      Contact me at <a href="mailto:me@here.com">me@here.com</a>, or at <a href="telephone-number">(555) 123-4567</a>.
+    </address>
+    <p> &copy;copyright 2019 The Author.</p>
   </footer>
 </body>
 </html>

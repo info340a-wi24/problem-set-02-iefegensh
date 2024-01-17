@@ -17,4 +17,22 @@ th {
     color: #1db954; 
     background-color: #d3d3d3; 
 }
-  
+
+th, td {
+    padding: .5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tbody tr:hover {
+    background-color: pink;
+}
+
+img {
+    width: 100px;  
+    height: 100px;
+}
+
